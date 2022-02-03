@@ -1,6 +1,5 @@
 open_invoices = open('CupcakeInvoices.csv')
 import math
-from tokenize import Number
 for line in open_invoices:
     print(line)
 
